@@ -20,8 +20,8 @@
 
 NTPtime NTPph("ph.pool.ntp.org");
 
-RBD::Timer overtime_timer(15000); //timer for checking if a bus exceeds 30 minutes
-RBD::Timer getready_timer(10000); //timer for checking if a bus has 10 minutes left; equivalent to 20 minutes
+RBD::Timer overtime_timer(40000); //timer for checking if a bus exceeds 30 minutes
+RBD::Timer getready_timer(20000); //timer for checking if a bus has 10 minutes left; equivalent to 20 minutes
 RBD::Timer nocarddetection_timer(5000); //if no bus is read again for 10 seconds, it means bus has left
 
 MFRC522 mfrc522(SS_PIN, RST_PIN); 
