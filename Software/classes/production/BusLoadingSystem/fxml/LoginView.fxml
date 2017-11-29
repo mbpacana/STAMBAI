@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <children>
+      <ImageView fitHeight="717.0" fitWidth="1001.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/new.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="username" layoutX="631.0" layoutY="292.0" onAction="#switchToRealtime" prefHeight="51.0" prefWidth="235.0" promptText="Username" style="-fx-background-radius: 0;" />
+      <PasswordField fx:id="password" layoutX="631.0" layoutY="360.0" onAction="#switchToRealtime" prefHeight="51.0" prefWidth="235.0" promptText="Password" style="-fx-background-radius: 0;" />
+      <Button fx:id="loginButton" layoutX="675.0" layoutY="464.0" mnemonicParsing="false" onAction="#switchToRealtime" prefHeight="45.0" prefWidth="146.0" styleClass="loginButton" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

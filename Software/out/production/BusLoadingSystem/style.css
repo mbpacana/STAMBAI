@@ -1,0 +1,65 @@
+.buttonLeft {
+    -fx-background-color: #3a93cd;
+}
+
+.buttonLeft:hover {
+    -fx-background-color: #2b6b95;
+}
+
+.buttonLeft:focused {
+
+}
+
+.buttonLeft:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+}
+
+.buttonLeft:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.buttonLeft:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+
+.table-view {
+    -fx-base: #3a93cd;
+    -fx-control-inner-background: white;
+    -fx-background-color: white;
+    -fx-padding: 0;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 2 2 2 2;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 9pt;
+    -fx-font-family: "Lucida Grande";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+}
+
+/*.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+} */
+
+.getStartedButton:hover, .loginButton:hover {
+    -fx-background-color: #2b6b95;
+}
+
+.getStartedButton, .loginButton {
+    -fx-background-color: #3a93cd;
+}
+
+.loginButton {
+    -fx-background-color: #3a93cd;
+}

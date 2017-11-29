@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.text.TextFlow?>
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ReportsController">
+    <children>
+        <!-- BACKGROUND IMAGE -->
+        <ImageView fitHeight="711.0" fitWidth="1010.0" layoutX="-7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/bg2.jpg" />
+            </image>
+        </ImageView>
+        <!-- BACKGROUND IMAGE END -->
+        <!-- LEFT PANE -->
+        <AnchorPane layoutY="-1.0" prefHeight="711.0" prefWidth="90.0" style="-fx-background-color: #3a93cd;">
+            <children>
+                <Button fx:id="toggleButton" layoutY="245.0" mnemonicParsing="false" onAction="#switchToReports" prefHeight="91.0" prefWidth="90.0" styleClass="buttonLeft">
+                    <graphic>
+                        <ImageView fitHeight="65.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/reportsButton.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="reportsButton" layoutY="59.0" mnemonicParsing="false" onAction="#switchToRealtime" prefHeight="91.0" prefWidth="90.0" styleClass="buttonLeft">
+                    <graphic>
+                        <ImageView fitHeight="67.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/realtimeButton.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="directoryButton" layoutY="152.0" mnemonicParsing="false" onAction="#switchToDirectory" prefHeight="91.0" prefWidth="90.0" styleClass="buttonLeft">
+                    <graphic>
+                        <ImageView fitHeight="64.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/directoryButton.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+            </children></AnchorPane>
+        <!-- LEFT PANE END -->
+
+        
+        <!-- HANi LOGO -->
+        <ImageView fitHeight="42.0" fitWidth="77.0" layoutX="908.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/logo.png" />
+            </image>
+        </ImageView>
+        <!-- HANi LOGO END -->
+        <!-- TEXT AREA -->
+
+        <TitledPane animated="false" layoutX="120.0" layoutY="35.0" prefHeight="641.0" prefWidth="545.0" text="untitled">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <TextFlow fx:id="display" layoutX="1.0" prefHeight="616.0" prefWidth="545.0" />
+                    </children>
+                </AnchorPane>
+            </content>
+        </TitledPane>
+
+        <Pane layoutX="685.0" layoutY="229.0" prefHeight="235.0" prefWidth="200.0">
+            <children>
+
+                <CheckBox fx:id="violationCheckBox" disable="false" layoutX="19.0" layoutY="118.0" mnemonicParsing="false" text="Violation" />
+                <CheckBox fx:id="feesCheckBox" disable="false" layoutX="114.0" layoutY="118.0" mnemonicParsing="false" text="Fees" />
+                <DatePicker fx:id="from" layoutX="53.0" layoutY="37.0" prefHeight="25.0" prefWidth="112.0" promptText="mm/dd/yyyy" />
+                <DatePicker fx:id="to"   layoutX="55.0" layoutY="73.0" prefHeight="25.0" prefWidth="112.0" promptText="mm/dd/yyyy" />
+                <Button fx:id="displayReport" layoutX="43.0" layoutY="188.0" mnemonicParsing="false" text="Display Report" />
+                <Button fx:id="generatePrintable" layoutX="13.0" layoutY="151.0" mnemonicParsing="false" text="Generate Printable Report" />
+                <Label layoutX="5.0" layoutY="6.0" text="Generate Summary Report for : " />
+                <Label layoutX="9.0" layoutY="41.0" text="Start :" />
+                <Label layoutX="10.0" layoutY="77.0" text="End:" />
+            </children>
+        </Pane>
+        <!-- TEXT AREA END-->
+        <!-- GENERATE REPORT AREA END-->
+
+    </children>
+</AnchorPane>

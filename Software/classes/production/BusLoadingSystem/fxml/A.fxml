@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.collections.FXCollections?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="366.0" prefWidth="547.0" style="-fx-background-color: #353857;" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddController">
+    <children>
+        <AnchorPane layoutX="26.0" layoutY="21.0" prefHeight="324.0" prefWidth="496.0" style="-fx-background-color: white;">
+            <children>
+                <Button fx:id="add" layoutX="193.0" layoutY="273.0" mnemonicParsing="false" onAction="#addData" prefHeight="37.0" prefWidth="111.0" styleClass="Button" text="Add" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font></Button>
+                <TextField fx:id="seatCapAdd" layoutX="259.0" layoutY="156.0" onAction="#compileData" prefHeight="45.0" prefWidth="217.0" promptText="Seat Capacity" style="-fx-background-radius: 0;" />
+                <TextField fx:id="plateNoAdd" layoutX="259.0" layoutY="95.0" onAction="#compileData" prefHeight="45.0" prefWidth="217.0" promptText="Plate Number" style="-fx-background-radius: 0;" />
+                <TextField fx:id="routeAdd" layoutX="22.0" layoutY="156.0" onAction="#compileData" prefHeight="45.0" prefWidth="217.0" promptText="Destination" style="-fx-background-radius: 0;" />
+                <TextField fx:id="busidAdd" layoutX="22.0" layoutY="95.0" onAction="#compileData" prefHeight="45.0" prefWidth="217.0" promptText="Bus RFID" style="-fx-background-radius: 0;" />
+            <TextField fx:id="rowNumberAdd" layoutX="22.0" layoutY="28.0" onAction="#compileData" prefHeight="45.0" prefWidth="217.0" promptText="Row Number" style="-fx-background-radius: 0;" />
+            <Text fx:id="instructions" fill="#6b6565" layoutX="296.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Bus Information">
+               <font>
+                  <Font size="15.0" />
+               </font></Text>
+            <ChoiceBox fx:id="company" layoutX="22.0" layoutY="217.0" prefHeight="45.0" prefWidth="217.0" value="Ceres">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Ceres" />
+                        <String fx:value="Sunrays" />
+                        <String fx:value="Jhade" />
+                        <String fx:value="Dos Hermanos" />
+                        <String fx:value="Befel Liner" />
+                        <String fx:value="Skipper" />
+                        <String fx:value="Andrew Liner" />
+                        <String fx:value="Pioneer" />
+                        <String fx:value="Metrolink" />
+                        <String fx:value="JBH Trans/Britt" />
+                        <String fx:value="CHAN Transit" />
+                        <String fx:value="Socorro" />
+                        <String fx:value="Calvo Line" />
+                        <String fx:value="EDC" />
+                        <String fx:value="Corominas" />
+                        <String fx:value="Allowie" />
+                        <String fx:value="JRK/SEPO" />
+                        <String fx:value="Inday Jean" />
+                        <String fx:value="Canoneo" />
+                        <String fx:value="Jegan" />
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            <ChoiceBox fx:id="type" layoutX="259.0" layoutY="217.0" prefHeight="45.0" prefWidth="217.0" value="Aircon">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Aircon" />
+                        <String fx:value="Non-Aircon" />
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

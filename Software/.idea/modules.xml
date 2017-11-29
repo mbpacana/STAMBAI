@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BusLoadingSystem.iml" filepath="$PROJECT_DIR$/.idea/modules/BusLoadingSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BusLoadingSystem_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BusLoadingSystem_main.iml" group="BusLoadingSystem" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BusLoadingSystem_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BusLoadingSystem_test.iml" group="BusLoadingSystem" />
+    </modules>
+  </component>
+</project>

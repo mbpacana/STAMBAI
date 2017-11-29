@@ -1,0 +1,88 @@
+.buttonLeft {
+    -fx-background-color: transparent;
+}
+
+.buttonLeft:hover {
+    -fx-background-color: #4d537f;
+}
+
+.buttonLeft:focused {
+
+}
+
+.buttonLeft:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+}
+
+.buttonLeft:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+.background{
+    -fx-background-color: #F5F6E6;
+}
+.buttonLeft:default:hover {
+    -fx-background-color: #4d537f;
+}
+
+.table-view {
+    -fx-base: #353857;
+    -fx-control-inner-background: #FAFAFA;
+    /*-fx-background-color: white;*/
+    -fx-table-cell-border-color: transparent;
+    -fx-font-weight: bold;
+    -fx-font-color: black;
+    -fx-font-size: 15;
+    -fx-padding: 0;
+}
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+.table-view .table-column {
+  -fx-alignment: CENTER-LEFT;
+}
+.table-view .column-header, .table-view .filler {
+    -fx-size: 40;
+    -fx-border-width: 0 0 0 0;
+    -fx-border-insets: 0 10 0 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 13pt;
+    -fx-font-family: "Open Sans";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+}
+.table-view .row-selected {
+    -fx-background-color: #353857;
+    -fx-text-fill: white;
+}
+/*.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+} */
+
+.getStartedButton:hover, .loginButton:hover {
+    -fx-background-color: #FA632C;  /*light effects when cursor touches the button below*/
+}
+
+.getStartedButton, .loginButton {
+    -fx-background-color: #F15B25;
+    /*yellow*//*-fx-background-color: #FAF684;*/
+    /*blue*/
+}
+
+.Button {
+    -fx-text-fill: white;
+    -fx-background-color: #353857;
+}
+
+.Button:hover {
+    -fx-background-color: #4d537f;
+}
+
+#searchField {
+    /*top-left, top-right, bottom-right, and bottom-left corners*/
+   -fx-border-radius: 5 5 5 5;
+   -fx-background-radius: 5 5 5 5;
+ }
