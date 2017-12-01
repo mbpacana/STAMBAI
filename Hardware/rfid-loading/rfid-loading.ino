@@ -184,8 +184,8 @@ String get_time_stamp() {
   }  
   
   String year = String(dateTime.year);
-  String month = String(dateTime.month);
-  String day = String(dateTime.day);
+  String month = double_digit(String(dateTime.month));
+  String day = double_digit(String(dateTime.day));
   String hour = double_digit(String(dateTime.hour));
   String minute = double_digit(String(dateTime.minute));
   String second = double_digit(String(dateTime.second));
