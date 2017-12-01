@@ -125,9 +125,8 @@ String get_time_stamp() {
 
 void send_data(String rfid) {
     StaticJsonBuffer<200> jsonBuffer;
-    String data_json = "{\"rfid\":\"" + rfid + "\",\"" + 
+    String data_json = "{\"rfid\":\"" + rfid + "\",\"" +
                        "status\":\"" + exit_status[random(0, 2)] + "\"}";
-
 
     JsonObject& data_object = jsonBuffer.parseObject(data_json);
     if(!data_object.success()) {

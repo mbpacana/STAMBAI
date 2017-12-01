@@ -184,13 +184,21 @@ String get_time_stamp() {
   }  
   
   String year = String(dateTime.year);
-  String month = String(dateTime.month);
-  String day = String(dateTime.day);
-  String hour = String(dateTime.hour);
-  String minute = String(dateTime.minute);
-  String second = String(dateTime.second);
+  String month = double_digit(String(dateTime.month));
+  String day = double_digit(String(dateTime.day));
+  String hour = double_digit(String(dateTime.hour));
+  String minute = double_digit(String(dateTime.minute));
+  String second = double_digit(String(dateTime.second));
   return year + "-" + month + "-" + day + " " + hour + ":" + 
          minute + ":" + second;
+}
+
+String double_digit(String time_unit) {
+  if(time_unit.length() == 1) {
+    return "0" + time_unit;
+  } else {
+    return time_unit;  
+  }
 }
 
 void send_data(String rfid, String time_in) {
