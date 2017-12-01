@@ -19,22 +19,18 @@ public class PDFGenerator {
 
     private static String filename;
 
-    private static PDFont font = PDType1Font.COURIER;
-    private static PDFont boldFont = PDType1Font.COURIER_BOLD;
+    private static PDFont font = PDType1Font.HELVETICA;
+    private static PDFont boldFont = PDType1Font.HELVETICA_BOLD;
 
     private static PDPage singlePage;
 
     private static String dateFrom;
     private static String dateTo;
 
-    private static ArrayList<String> companies;
-    private static ArrayList<Integer> count;
 
     private static ArrayList<String> violators;
     private static ArrayList<String> fees;
 
-    private static Boolean isFees;
-    private static Boolean isViolation;
 
     private static File file;
     private static PDDocument doc;
@@ -57,40 +53,69 @@ public class PDFGenerator {
         doc = new PDDocument();
         doc.addPage(singlePage);
         cs = new PDPageContentStream(doc,singlePage);
-        PDImageXObject pdImage = PDImageXObject.createFromFile("/Users/tolapura/Desktop/128 3/src/main/resources/img/csbt.png", doc);
-        cs.drawImage(pdImage,50,735,100,30);
         writeHeader();
-        x = 100;
-        y = 670;
+        x = 50;
+        y = 630;
+//        writeFooter();
     }
 
 
     public void writeHeader() throws IOException {
+        PDImageXObject pdImage = PDImageXObject.createFromFile("/Users/tolapura/Desktop/LATEST HANI/src/main/resources/img/csbt.png", doc);
+        cs.drawImage(pdImage,50,735,100,30);
+//        cs.drawImage(pdImage,0.5f,0,singlePage.getMediaBox().getWidth()-1,singlePage.getMediaBox().getHeight()+3);
+
+//        cs.beginText();
+//        cs.setFont(boldFont,10);
+//        cs.newLineAtOffset(45,728);
+//        cs.showText("BUS LOADING SYSTEM");
+//        cs.endText();
+
         cs.beginText();
-        cs.setFont(boldFont,15);
-        cs.newLineAtOffset(160,750);
+        cs.setFont(boldFont,10);
+        cs.newLineAtOffset(50,720);
         cs.showText("CEBU SOUTH BUS TERMINAL");
         cs.endText();
 
         cs.beginText();
-        cs.newLine();
         cs.setFont(font,10);
-        cs.newLineAtOffset(160,738);
+        cs.newLineAtOffset(50,710);
+        cs.showText("N. Bacalso Avenue, Cebu City");
+        cs.endText();
+
+        cs.beginText();
+        cs.newLine();
+        cs.setFont(boldFont,10);
+        cs.newLineAtOffset(50,680);
         cs.showText("Summary Report");
         cs.endText();
 
         cs.beginText();
         cs.newLine();
         cs.setFont(boldFont,10);
-        cs.newLineAtOffset(90, 710);
-        cs.showText("FROM: ");
+        cs.newLineAtOffset(50,675);
+        cs.showText("_______________________________________________________________________________________");
+        cs.endText();
+
+        cs.beginText();
+        cs.newLine();
+        cs.setFont(font,8);
+        cs.newLineAtOffset(50, 660);
+        cs.showText("DATE FROM: ");
+        cs.endText();
+
+        cs.beginText();
+        cs.newLine();
+        cs.setFont(font,8);
+        cs.newLineAtOffset(120, 660);
+        cs.showText(dateFrom + "     TO: " + dateTo);
         cs.endText();
 
         cs.beginText();
         cs.newLine();
         cs.setFont(boldFont,10);
-        cs.newLineAtOffset(130, 710);
-        cs.showText(dateFrom + "     TO: " + dateTo);
+        cs.newLineAtOffset(50,650);
+        cs.showText("_______________________________________________________________________________________");
         cs.endText();
     }
 
@@ -111,33 +136,39 @@ public class PDFGenerator {
             vtotal += count.get(i);
         }
 
+        y-=20;
 
         cs.beginText();
         cs.newLine();
-        cs.setFont(boldFont,11);
-        cs.newLineAtOffset(x, y);
+        cs.setFont(boldFont,10);
+        cs.newLineAtOffset(50, y);
         cs.showText("VIOLATIONS: ");
         cs.endText();
 
         cs.beginText();
         cs.newLine();
         cs.setFont(font,10);
-        cs.newLineAtOffset(x, y-=35);
+        cs.newLineAtOffset(50,y-10);
+        cs.showText("_______________________________________________________________________________________");
+        cs.endText();
+
+        cs.beginText();
+        cs.newLine();
+        cs.setFont(font,10);
+        cs.newLineAtOffset(50, y-=35);
         cs.showText("BUS COMPANY            NUMBER OF VIOLATIONS");
         cs.endText();
 
+        cs.beginText();
+        cs.newLine();
+        cs.setFont(font,10);
+        cs.newLineAtOffset(50,y-10);
+        cs.showText("_______________________________________________________________________________________");
+        cs.endText();
 
-//            for(String violator: violators){
-//                cs.beginText();
-//                cs.newLine();
-//                cs.setFont(font,10);
-//                cs.newLineAtOffset(x, y-=20);
-//                cs.showText(violator);
-//                y-=20;
-//                cs.endText();
-//            }
 
-        y-=20;
+
+        y-=30;
         float colWidth = 160f;
         float rowHeight = 20f;
         for(int i = 0; i < violationsContent.length; i++){
@@ -149,24 +180,41 @@ public class PDFGenerator {
                 cs.endText();
                 x += colWidth;
             }
+
             y-=rowHeight;
-            x = 100;
+            x = 50;
         }
 
         cs.beginText();
         cs.newLine();
         cs.setFont(font,10);
-        cs.newLineAtOffset(x, y);
-        cs.showText("                        _______________________");
+        cs.newLineAtOffset(50,y-5);
+        cs.showText("_______________________________________________________________________________________");
         cs.endText();
 
-        cs.beginText();
-        cs.newLine();
-        cs.setFont(boldFont,10);
-        cs.newLineAtOffset(x, y-=20);
-        cs.showText("TOTAL                      "+vtotal);
-        y-=50;
-        cs.endText();
+        y-=20;
+        for(int j = 0 ; j < 3; j++){
+            String text = "";
+            if(j == 0){
+                text = "TOTAL";
+            }else if(j == 1){
+                text = vtotal + "";
+            }
+            cs.beginText();
+            cs.moveTextPositionByAmount(x,y);
+            cs.drawString(text);
+            cs.endText();
+            x += colWidth;
+        }
+        x = 50;
+//
+//        cs.beginText();
+//        cs.newLine();
+//        cs.setFont(boldFont,10);
+//        cs.newLineAtOffset(x, y-=20);
+//        cs.showText("TOTAL                                             "+vtotal);
+//        y-=50;
+//        cs.endText();
 
     }
 
@@ -185,7 +233,7 @@ public class PDFGenerator {
                     feesContent[i][j] = (count.get(i)*200)+"";
                 }
             }
-            fees.add(companies.get(i) + "                  " + count.get(i) + "                         " + count.get(i)*200);
+            fees.add(companies.get(i) + "                  " + count.get(i) + "              " + count.get(i)*200);
             ftotal += (count.get(i)*200);
             vtotalc+=count.get(i);
         }
@@ -193,30 +241,34 @@ public class PDFGenerator {
         cs.beginText();
         cs.newLine();
         cs.setFont(boldFont,11);
-        cs.newLineAtOffset(90, y);
+        cs.newLineAtOffset(x, y-=20);
         cs.showText("FEES: ");
         cs.endText();
 
         cs.beginText();
         cs.newLine();
-        cs.setFont(font,10);
-        cs.newLineAtOffset(90, y-=35);
-        cs.showText("BUS COMPANY           NUM. OF BUSES                AMOUNT PAID");
+        cs.setFont(boldFont,10);
+        cs.newLineAtOffset(50,y-10);
+        cs.showText("_______________________________________________________________________________________");
         cs.endText();
 
-//
-//            for(String fee: fees){
-//                cs.beginText();
-//                cs.newLine();
-//                cs.setFont(font,10);
-//                cs.newLineAtOffset(x, y-=20);
-//                cs.showText(fee);
-//                y-=20;
-//                cs.endText();
-//            }
+        cs.beginText();
+        cs.newLine();
+        cs.setFont(font,10);
+        cs.newLineAtOffset(x, y-=35);
+        cs.showText("BUS COMPANY                      NUMBER OF BUSES                           AMOUNT PAID");
+        cs.endText();
+
+        cs.beginText();
+        cs.newLine();
+        cs.setFont(font,10);
+        cs.newLineAtOffset(50,y-10);
+        cs.showText("_______________________________________________________________________________________");
+        cs.endText();
 
 
-        y-=20;
+
+        y-=30;
         float colWidth = 160f;
         float rowHeight = 20f;
         for(int i = 0; i < feesContent.length; i++){
@@ -229,26 +281,84 @@ public class PDFGenerator {
                 x += colWidth;
             }
             y-=rowHeight;
-            x = 100;
+            x = 50;
+            if(y<=100){
+                cs.close();
+                singlePage = new PDPage();
+                doc.addPage(singlePage);
+                cs = new PDPageContentStream(doc,singlePage);
+                writeHeader();
+                y = 630;
+            }
         }
 
         cs.beginText();
         cs.newLine();
         cs.setFont(font,10);
-        cs.newLineAtOffset(x, y);
-        cs.showText("                  _______________________________________________");
+        cs.newLineAtOffset(x,y-5);
+        cs.showText("_______________________________________________________________________________________");
         cs.endText();
 
-        cs.beginText();
-        cs.newLine();
-        cs.setFont(boldFont,10);
-        cs.newLineAtOffset(x, y-=20);
-        cs.showText("TOTAL                      " + vtotalc+ "                         "+ ftotal);
-        y-=50;
-        cs.endText();
+        y-=20;
+        for(int j = 0 ; j < 3; j++){
+            String text = "";
+            if(j == 0){
+                text = "TOTAL";
+            }else if(j == 1){
+                text = vtotalc + "";
+            }else{
+                text = ftotal + "";
+            }
+            cs.beginText();
+            cs.moveTextPositionByAmount(x,y);
+            cs.drawString(text);
+            cs.endText();
+            x += colWidth;
+        }
+
+        x = 50;
+//
+//        cs.beginText();
+//        cs.newLine();
+//        cs.setFont(boldFont,10);
+//        cs.newLineAtOffset(x, y-=20);
+//        cs.showText("TOTAL                                              " + vtotalc+ "                                                     "+ ftotal);
+//        y-=50;
+//        cs.endText();
 
     }
 
+    public void testMultiPage() throws IOException {
+
+        float docHeight = singlePage.getMediaBox().getHeight();
+        for(int i = 0 ; i <200 ; i++){
+            cs.beginText();
+            cs.newLineAtOffset(x,y);
+            cs.setFont(font,10);
+            cs.showText(i + " ");
+            cs.newLine();
+            cs.endText();
+            y-=10;
+            if(y<=100){
+                cs.close();
+                singlePage = new PDPage();
+                doc.addPage(singlePage);
+                cs = new PDPageContentStream(doc,singlePage);
+                writeHeader();
+                y = 630;
+            }
+        }
+
+    }
+
+    public void writeFooter() throws IOException {
+        cs.beginText();
+        cs.newLineAtOffset(x,100);
+        cs.setFont(font,10);
+        cs.showText("-------------------- footer space --------------------------");
+        cs.newLine();
+        cs.endText();
+    }
 
     public void savePDF() throws IOException {
         cs.close();
@@ -258,57 +368,6 @@ public class PDFGenerator {
     }
 
 
-    /**
-     * @param page
-     * @param contentStream
-     * @param y the y-coordinate of the first row
-     * @param margin the padding on left and right of table
-     * @param content a 2d array containing the table data
-     * @throws IOException
-     */
-    public static void drawTable(PDPage page, PDPageContentStream contentStream,
-                                 float y, float margin,
-                                 String[][] content) throws IOException {
-        final int rows = content.length;
-        final int cols = content[0].length;
-        final float rowHeight = 20f;
-        final float tableWidth = page.getMediaBox().getWidth()-(2*margin);
-        final float tableHeight = rowHeight * rows;
-        final float colWidth = tableWidth/(float)cols;
-        final float cellMargin=5f;
-
-        //draw the rows
-        float nexty = y ;
-        for (int i = 0; i <= rows; i++) {
-            contentStream.drawLine(margin,nexty,margin+tableWidth,nexty);
-            nexty-= rowHeight;
-        }
-
-        //draw the columns
-        float nextx = margin;
-        for (int i = 0; i <= cols; i++) {
-            contentStream.drawLine(nextx,y,nextx,y-tableHeight);
-            nextx += colWidth;
-        }
-
-        //now add the text
-        contentStream.setFont(PDType1Font.HELVETICA_BOLD,12);
-
-        float textx = margin+cellMargin;
-        float texty = y-15;
-        for(int i = 0; i < content.length; i++){
-            for(int j = 0 ; j < content[i].length; j++){
-                String text = content[i][j];
-                contentStream.beginText();
-                contentStream.moveTextPositionByAmount(textx,texty);
-                contentStream.drawString(text);
-                contentStream.endText();
-                textx += colWidth;
-            }
-            texty-=rowHeight;
-            textx = margin+cellMargin;
-        }
-    }
 
 
 

@@ -3,7 +3,7 @@
 }
 
 .buttonLeft:hover {
-    -fx-background-color: #4d537f;
+    -fx-background-color: #27376f;
 }
 
 .buttonLeft:focused {
@@ -22,25 +22,28 @@
 .background{
     -fx-background-color: #F5F6E6;
 }
-.buttonLeft:default:hover {
-    -fx-background-color: #4d537f;
+.table-row-cell:selected {
+    -fx-background-color: #e2e2e2;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
 }
 
 .table-view {
-    -fx-base: #353857;
+    -fx-base: #e2e2e2;
+
     -fx-control-inner-background: #FAFAFA;
     /*-fx-background-color: white;*/
     -fx-table-cell-border-color: transparent;
     -fx-font-weight: bold;
     -fx-font-color: black;
-    -fx-font-size: 15;
+    -fx-font-size: 10pt;
     -fx-padding: 0;
 }
 .table-view .column-header-background {
     -fx-background-color: transparent;
 }
 .table-view .table-column {
-  -fx-alignment: CENTER-LEFT;
+  -fx-alignment: CENTER;
 }
 .table-view .column-header, .table-view .filler {
     -fx-size: 40;
@@ -49,36 +52,32 @@
 }
 
 .table-view .column-header .label {
-    -fx-font-size: 13pt;
+    -fx-font-size: 10pt;
     -fx-font-family: "Open Sans";
-    -fx-text-fill: white;
-    -fx-alignment: center-left;
+    -fx-text-fill: #000000;
+    -fx-alignment: center;
 }
 .table-view .row-selected {
-    -fx-background-color: #353857;
+    -fx-background-color: #273a84;
     -fx-text-fill: white;
 }
-/*.table-view:focused .table-row-cell:filled:focused:selected {
-    -fx-background-color: -fx-focus-color;
-} */
 
 .getStartedButton:hover, .loginButton:hover {
-    -fx-background-color: #FA632C;  /*light effects when cursor touches the button below*/
+    -fx-background-color: #e7bf24;  /*light effects when cursor touches the button below*/
 }
 
 .getStartedButton, .loginButton {
-    -fx-background-color: #F15B25;
+    -fx-background-color: #fcd424;
     /*yellow*//*-fx-background-color: #FAF684;*/
     /*blue*/
 }
 
 .Button {
-    -fx-text-fill: white;
-    -fx-background-color: #353857;
+    -fx-background-color: #273a84;
 }
 
 .Button:hover {
-    -fx-background-color: #4d537f;
+    -fx-background-color: #273AAA;
 }
 
 #searchField {

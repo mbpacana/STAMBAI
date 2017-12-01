@@ -7,59 +7,52 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<?import javafx.scene.control.TextField?>
-<AnchorPane prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: white;" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RealtimeController">
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RealtimeController">
    <children>
+      <ImageView fitHeight="711.0" fitWidth="1010.0" layoutX="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/bg2.jpg" />
+         </image>
+      </ImageView>
 
-            <!-- LEFT PANE -->
-      <AnchorPane prefHeight="710.0" prefWidth="137.0" style="-fx-background-color: #353857; -fx-effect: dropshadow(three-password-box, rgba(0,0,0,0.8), 10, 0, 0, 0)dropshadow(three-password-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">
+      <!-- LEFT PANE -->
+      <AnchorPane layoutY="-1.0" prefHeight="711.0" prefWidth="90.0" style="-fx-background-color: #3a93cd;">
          <children>
-            <Button fx:id="reportsButton" layoutY="59.0" mnemonicParsing="false" prefHeight="115.0" prefWidth="137.0" styleClass="buttonLeft">
+            <Button fx:id="toggleButton" layoutY="243.0" mnemonicParsing="false" onAction="#switchToReports" prefHeight="91.0" prefWidth="89.0" styleClass="buttonLeft">
                <graphic>
-                  <ImageView fitHeight="76.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="65.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../img/time2.png" />
-                     </image>
-                  </ImageView>
-               </graphic></Button>
-            <Button fx:id="toggleButton" layoutY="289.0" mnemonicParsing="false" onAction="#switchToReports" prefHeight="115.0" prefWidth="137.0" styleClass="buttonLeft">
-               <graphic>
-                  <ImageView fitHeight="76.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../img/reports.png" />
+                        <Image url="@../img/reportsButton.png" />
                      </image>
                   </ImageView>
                </graphic>
             </Button>
-             <Button fx:id="directoryButton" layoutY="174.0" mnemonicParsing="false" onAction="#switchToDirectory" prefHeight="115.0" prefWidth="137.0" styleClass="buttonLeft">
+            <Button fx:id="reportsButton" layoutY="59.0" mnemonicParsing="false" onAction="#switchToRealtime" prefHeight="91.0" prefWidth="90.0" styleClass="buttonLeft">
                <graphic>
-                     <ImageView fitHeight="76.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
-                         <image>
-                             <Image url="@../img/directory.png" />
-                         </image>
-                     </ImageView>
+                  <ImageView fitHeight="67.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/realtimeButton.png" />
+                     </image>
+                  </ImageView>
                </graphic>
-             </Button>
-             <Button fx:id="SettingsButton" layoutY="404.0" mnemonicParsing="false" onAction="#switchToSettings" prefHeight="115.0" prefWidth="137.0" styleClass="buttonLeft">
-                 <graphic>
-                     <ImageView fitHeight="76.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
-                         <image>
-                             <Image url="@../img/settings.png" />
-                         </image>
-                     </ImageView>
-                 </graphic>
-             </Button>
-
-               </children>
-      </AnchorPane>
+            </Button>
+            <Button fx:id="directoryButton" layoutY="152.0" mnemonicParsing="false" onAction="#switchToDirectory" prefHeight="91.0" prefWidth="90.0" styleClass="buttonLeft">
+               <graphic>
+                  <ImageView fitHeight="64.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/directoryButton.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children></AnchorPane>
       <!-- LEFT PANE END -->
 
       <!-- TABLE -->
-      <TableView fx:id="realtimeTable" layoutX="165.0" layoutY="53.0" prefHeight="609.0" prefWidth="805.0" styleClass="table-row">
+      <TableView fx:id="realtimeTable" layoutX="105.0" layoutY="74.0" prefHeight="624.0" prefWidth="877.0">
         <columns>
           <TableColumn fx:id="BusID" prefWidth="75.0" text="Bus ID" />
-           <TableColumn fx:id="loading_bay" prefWidth="75.0" text="Loading Bay" />
-           <TableColumn fx:id="destination" prefWidth="75.0" text="Destination" />
+          <TableColumn fx:id="destination" prefWidth="75.0" text="Destination" />
            <TableColumn fx:id="timeOfArrival" prefWidth="75.0" text="Time of Arrival" />
            <TableColumn fx:id="timeOfDeparture" prefWidth="75.0" text="Time of Departure" />
            <TableColumn fx:id="duration" prefWidth="75.0" text="Duration" />
@@ -69,12 +62,14 @@
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
          </columnResizePolicy>
       </TableView>
-       <TextField id="searchField" fx:id="searchField" layoutX="713.0" layoutY="17.0" prefHeight="30.0" prefWidth="258.0" promptText="Search" />
-       <ImageView fitHeight="12.0" fitWidth="17.0" layoutX="950.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
-           <image>
-               <Image url="@../img/search.png" />
-           </image>
-       </ImageView>
+      <!-- TABLE END -->
+
+      <!-- HANi LOGO -->
+      <ImageView fitHeight="42.0" fitWidth="77.0" layoutX="908.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/logo.png" />
+         </image>
+      </ImageView>
       <!-- HANi LOGO END -->
 
    </children>

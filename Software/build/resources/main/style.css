@@ -1,9 +1,9 @@
 .buttonLeft {
-    -fx-background-color: transparent;
+    -fx-background-color: #3a93cd;
 }
 
 .buttonLeft:hover {
-    -fx-background-color: #4d537f;
+    -fx-background-color: #2b6b95;
 }
 
 .buttonLeft:focused {
@@ -19,70 +19,47 @@
     -fx-background-color: -fx-focus-color;
     -fx-text-fill: #ffffff;
 }
-.background{
-    -fx-background-color: #F5F6E6;
-}
+
 .buttonLeft:default:hover {
-    -fx-background-color: #4d537f;
+    -fx-background-color: derive(-fx-focus-color,30%);
 }
 
 .table-view {
-    -fx-base: #353857;
-    -fx-control-inner-background: #FAFAFA;
-    /*-fx-background-color: white;*/
-    -fx-table-cell-border-color: transparent;
-    -fx-font-weight: bold;
-    -fx-font-color: black;
-    -fx-font-size: 15;
+    -fx-base: #3a93cd;
+    -fx-control-inner-background: white;
+    -fx-background-color: white;
     -fx-padding: 0;
 }
+
 .table-view .column-header-background {
     -fx-background-color: transparent;
 }
-.table-view .table-column {
-  -fx-alignment: CENTER-LEFT;
-}
+
 .table-view .column-header, .table-view .filler {
-    -fx-size: 40;
-    -fx-border-width: 0 0 0 0;
-    -fx-border-insets: 0 10 0 0;
+    -fx-size: 35;
+    -fx-border-width: 2 2 2 2;
+    -fx-border-insets: 0 10 1 0;
 }
 
 .table-view .column-header .label {
-    -fx-font-size: 13pt;
-    -fx-font-family: "Open Sans";
+    -fx-font-size: 9pt;
+    -fx-font-family: "Lucida Grande";
     -fx-text-fill: white;
     -fx-alignment: center-left;
 }
-.table-view .row-selected {
-    -fx-background-color: #353857;
-    -fx-text-fill: white;
-}
+
 /*.table-view:focused .table-row-cell:filled:focused:selected {
     -fx-background-color: -fx-focus-color;
 } */
 
 .getStartedButton:hover, .loginButton:hover {
-    -fx-background-color: #FA632C;  /*light effects when cursor touches the button below*/
+    -fx-background-color: #2b6b95;
 }
 
 .getStartedButton, .loginButton {
-    -fx-background-color: #F15B25;
-    /*yellow*//*-fx-background-color: #FAF684;*/
-    /*blue*/
+    -fx-background-color: #3a93cd;
 }
 
-.Button {
-    -fx-text-fill: white;
-    -fx-background-color: #353857;
+.loginButton {
+    -fx-background-color: #3a93cd;
 }
-
-.Button:hover {
-    -fx-background-color: #4d537f;
-}
-
-#searchField {
-    /*top-left, top-right, bottom-right, and bottom-left corners*/
-   -fx-border-radius: 5 5 5 5;
-   -fx-background-radius: 5 5 5 5;
- }

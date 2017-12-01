@@ -1,9 +1,5 @@
 package dao;
 
-/*
-    POJO class
-    Container for dao.Data to be stored in the Realtime tableview
- */
 public class Data {
     private String BusID;
     private String destination;
@@ -13,7 +9,8 @@ public class Data {
     private String duration;
     private String violation;
 
-    public Data(String BusID, String destination, String loading_bay, String timeOfArrival, String timeOfDeparture, String duration, String violation) {
+    public Data(String BusID, String destination, String loading_bay,
+                String timeOfArrival, String timeOfDeparture, String duration, String violation) {
         this.BusID = BusID;
         this.loading_bay = loading_bay;
         this.destination = destination;

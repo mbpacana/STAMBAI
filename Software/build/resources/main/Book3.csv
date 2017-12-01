@@ -1,30 +1,31 @@
-No.,RFID,Platenumber,Company,Destination,Seat_Cap,Type
-1,15:CD:30:5B,1234,JRK/SEPO,Talamban,43,Aircon
-1,9D:CA:30:5B,mnx-u726,Canoneo,Toledo,60,Aircon
-1,51:5C:AA:89,bdk-h783,Canoneo,Toledo,60,Aircon
-1,b_1,ABX-0779,Ceres,Bato/Barili,21,Aircon
-1,b_2,yty-897,Ceres,Bato/Barili,34,Aircon
-1,b_3,ttr-090,Ceres,Bato/Barili,43,Aircon
-1,b_4,eee-777,Ceres,Bato/Barili,49,Aircon
-1,b_5,erw-554,Ceres,Carcar,54,Aircon
-1,b_6,tre-432,Ceres,Bato/Barili,34,Aircon
-1,b_7,jjku-889,Ceres,Balamban/Asturias/Tuburan/Toledo,45,Aircon
-2,b_8,bau-7834,Ceres,Bato/Barili,32,Aircon
-2,b_9,uog-8936,Ceres,Bato/Barili,32,Aircon
-2,b_10,bkdk-1452,Ceres,Balamban/Asturias/Tuburan/Toledo,32,Non-Aircon
-2,b_11,uro-7352,Ceres,Balamban/Asturias/Tuburan/Toledo,32,Non-Aircon
-2,b_12,bdh-2661,Ceres,Balamban/Asturias/Tuburan/Toledo,32,Non-Aircon
-0,b_13,ree_776,Ceres,Bato/Barili,55,Aircon
-0,1234,qwerty,Ceres,Bato/Barili,21,Aircon
-3,b_14,hud-5266,Canoneo,Toledo,60,Aircon
-29,b_10,ien-876,Canoneo,Toledo,80,Aircon
-0,b_12,dfasf,Canoneo,Bato/Barili,87,Aircon
-3,b_13,hfl-7299,Canoneo,Toledo,60,Aircon
-3,b_15,bdl-6289,Canoneo,Toledo,60,Aircon
-3,b_16,ble-5478,Canoneo,Toledo,60,Aircon
-16,b_17,eda-087,Inday Jean,Carcar,53,Non-Aircon
-17,b_18,doe-123,Allowie,Beika City,53,Non-Aircon
-18,b_19,ayh-878,Andrew Liner,Sibonga,53,Non-Aircon
-24,b_20,moo-322,Jegans,Toledo/Pinamungajan,61,Non-Aircon
-25,b_21,one-901,Calvo Line,Toledo/Balamban,50,Non-Aircon
-26,b_22,new-878,Corominas,Balamban / Asturias /,55,Non-Aircon
+No.,RFID,Plate_Num,Company,Destination,Sitting_Cap,Type
+0,15:CD:30:5B,5xd4g,JEGANS,Toledo/Pinamungajan,61,Non-Aircon
+1,9D:CA:30:5B,66gh77,CALVO,Toledo/Balamban,50,Non-Aircon
+2,conan_Doyle,add-111,COROMINAS,Balamban / Asturias /,55,Non-Aircon
+3,b_4,abd-112,COROMINAS,Tuburan / Toledo,55,Non-Aircon
+4,b_5,dca-212, CERES,Balamban/Pinamungajan,55,Aircon
+5,b_6,dca-211,CERES,Nagasaki,55,Aircon
+6,b_7,uiu-111,GABE TRANSIT,Toledo/Balamabn,50,Non-Aircon
+7,b_8,chu-909,CANONEO,Tokyo,80,Non-Aircon
+8,Uehara9,ffe-908, METROLINK,Bato/Barili,65,Non-Aircon
+9,b_10,ght-987,SUNRAYS,Samboan/Oslob,56,Aircon
+10,b_11,dxy-988,SUNRAYS,Santander Liloan Port,1000,Aircon
+11,b_12,axz-999,CHAN TRANSIT,Hiroshima,50,Non-Aircon
+12,KudoYusaku,ddd-888,JBH/BRITT,Dumanjug/Barili,53,Non-Aircon
+13,b_14,eee-898,SOCORRO,Dumanjug,53,Non-Aircon
+14,b_15,eeq-909,BEFEL LINER,Carcar,53,Non-Aircon
+15,b_16,dee-090,DOS HERMANOS,Carcar,53,Non-Aircon
+16,b_17,eda-087,INDAY JEAN,Carcar,53,Non-Aircon
+17,b_18,doe-123,ALLOWIE,Beika City,53,Non-Aircon
+18,b_19,ayh-878,ANDREW LINER,Sibonga,53,Non-Aircon
+19,b_20,jan-356,EDC,Sibonga,53,No Aircon
+20,b_21,lep-007,JRK / SEPO,Sibonga,53,Non-Aircon
+21,b_22,asd-111,PIONEER,Sibonga,53,Non-Aircon
+22,b_23,ede-767,SKIPPER,Sibonga,53,Non-Aircon
+23,b_24,sun-101,YEOMAN,Sibonga,53,Non-Aircon
+24,b_25,moo-322,JEGANS,Toledo/Pinamungajan,61,Non-Aircon
+25,b_26,one-901,CALVO,Toledo/Balamban,50,Non-Aircon
+26,b_27,new-878,COROMINAS,Balamban / Asturias /,55,Non-Aircon
+27,b_28,ret-012,CERES,Balamban/Pinamungajan,55,Aircon
+28,b_29,nei-900,GABE TRANSIT,Toledo/Balamabn,50,Aircon
+29,b_30,ien-876,CANONEO,Toledo,80,Non-Aircon

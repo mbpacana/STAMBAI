@@ -16,108 +16,138 @@
 <AnchorPane fx:id="ap" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: white;" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReportsController">
     <children>
         <!-- BACKGROUND IMAGE END -->
-        <!-- LEFT PANE -->
-        <AnchorPane prefHeight="710.0" prefWidth="137.0" style="-fx-background-color: #353857; -fx-effect: dropshadow(three-password-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">
+        <AnchorPane prefHeight="62.0" prefWidth="1000.0" style="-fx-background-color: #273A84;">
             <children>
-                <Button fx:id="reportsButton" layoutY="59.0" mnemonicParsing="false" onAction="#switchToRealtime" prefHeight="115.0" prefWidth="137.0" styleClass="buttonLeft">
+                <Button fx:id="toggleButton" layoutX="234.0" mnemonicParsing="false" onAction="#switchToRealtime" prefHeight="62.0" prefWidth="140.0" styleClass="buttonLeft">
                     <graphic>
-                        <ImageView fitHeight="76.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="16.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../img/time2.png" />
-                            </image>
-                        </ImageView>
-                    </graphic></Button>
-                <Button fx:id="toggleButton" layoutY="289.0" mnemonicParsing="false" prefHeight="115.0" prefWidth="137.0" styleClass="buttonLeft">
-                    <graphic>
-                        <ImageView fitHeight="76.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
-                            <image>
-                                <Image url="@../img/reports.png" />
+                                <Image url="@../img/realtimeButton.png" />
                             </image>
                         </ImageView>
                     </graphic>
                 </Button>
-                <Button fx:id="directoryButton" layoutY="174.0" mnemonicParsing="false" onAction="#switchToDirectory" prefHeight="115.0" prefWidth="137.0" styleClass="buttonLeft">
+                <Button fx:id="directoryButton" layoutX="374.0" mnemonicParsing="false" onAction="#switchToDirectory" prefHeight="62.0" prefWidth="140.0" styleClass="buttonLeft">
                     <graphic>
-                        <ImageView fitHeight="76.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="16.0" fitWidth="112.0" pickOnBounds="true" preserveRatio="true">
                             <image>
                                 <Image url="@../img/directory.png" />
                             </image>
                         </ImageView>
                     </graphic>
                 </Button>
-                <Button fx:id="SettingsButton" layoutY="404.0" mnemonicParsing="false" onAction="#switchToSettings" prefHeight="115.0" prefWidth="137.0" styleClass="buttonLeft">
+                <Button fx:id="reportsButton" layoutX="514.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="140.0" styleClass="buttonLeft">
                     <graphic>
-                        <ImageView fitHeight="76.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="16.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/reports.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="SettingsButton" layoutX="654.0" mnemonicParsing="false" onAction="#switchToSettings" prefHeight="62.0" prefWidth="140.0" styleClass="buttonLeft">
+                    <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true">
                             <image>
                                 <Image url="@../img/settings.png" />
                             </image>
                         </ImageView>
                     </graphic>
                 </Button>
-
+                <ImageView fitHeight="44.0" fitWidth="163.0" layoutX="23.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../img/csbt.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="logoutButton" layoutX="905.0" layoutY="1.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="62.0" prefWidth="69.0" styleClass="buttonLeft">
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" styleClass="logoutButton">
+                            <image>
+                                <Image url="@../img/logout.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
             </children>
         </AnchorPane>
         <!-- LEFT PANE END -->
         <!-- TEXT AREA -->
 
-        <TableView fx:id="feestable" layoutX="156.0" layoutY="30.0" prefHeight="260.0" prefWidth="545.0">
+        <TableView fx:id="feestable" layoutX="70.0" layoutY="99.0" prefHeight="231.0" prefWidth="543.0">
 
             <columns>
-                <TableColumn fx:id="companyf" prefWidth="175" text="BUS_COMPANY" />
-                <TableColumn fx:id="buscount" prefWidth="170.20001220703125" text="NUM_OF_BUSES" />
-                <TableColumn fx:id="feescollected" prefWidth="216.79998779296875" text="FEE PAID" />
+                <TableColumn fx:id="companyf" minWidth="220.0" prefWidth="220.0" resizable="false" text="COMPANY" />
+                <TableColumn fx:id="buscount" minWidth="150.0" prefWidth="150.0" resizable="false" text="NO. OF BUSES" />
+                <TableColumn fx:id="feescollected" minWidth="150.0" prefWidth="150.0" resizable="false" text="FEE PAID" />
             </columns>
         </TableView>
-        <TableView fx:id="violationstable" layoutX="157.0" layoutY="376.0" prefHeight="260.0" prefWidth="545.0">
+        <TableView fx:id="violationstable" layoutX="70.0" layoutY="377.0" prefHeight="231.0" prefWidth="543.0">
             <columns>
-                <TableColumn fx:id="companyv" prefWidth="300.199951171875" text="COMPANY" />
-                <TableColumn fx:id="violationcount" prefWidth="262.800048828125" text="NUMBER OF VIOLATIONS" />
+                <TableColumn fx:id="companyv" minWidth="320.0" prefWidth="320.0" resizable="false" text="COMPANY" />
+                <TableColumn fx:id="violationcount" minWidth="200.0" prefWidth="200.0" resizable="false" text="NO. OF VIOLATIONS" />
             </columns>
         </TableView>
-        <Label layoutX="157.0" layoutY="299.0" prefHeight="17.0" prefWidth="172.0" text="TOTAL:">
-            <font>
-                <Font name="System Bold" size="12.0" />
-            </font>
-        </Label>
-        <Label layoutX="157.0" layoutY="647.0" text="TOTAL:">
-            <font>
-                <Font name="System Bold" size="12.0" />
-            </font>
-        </Label>
-        <Text fx:id="totalBusCount" layoutX="340.0" layoutY="312.0" text="-" />
-        <Label text="Label" />
-        <Text fx:id="totalFees" layoutX="534.0" layoutY="312.0" text="-" />
-        <Text fx:id="totalViolations" layoutX="537.0" layoutY="659.0" text="-" />
 
-        <Pane layoutX="717.0" layoutY="31.0" prefHeight="649.0" prefWidth="253.0" style="-fx-background-color: #efeeee;">
+        <Pane layoutX="631.0" layoutY="99.0" prefHeight="511.0" prefWidth="297.0" style="-fx-background-color: #efeeee;">
             <children>
 
-                <CheckBox fx:id="violationCheckBox" disable="false" layoutX="41.0" layoutY="205.0" mnemonicParsing="false" text="Violation">
+                <CheckBox fx:id="violationCheckBox" disable="false" layoutX="60.0" layoutY="233.0" mnemonicParsing="false" text="VIOLATION">
                     <font>
-                        <Font name="System Bold" size="14.0" />
+                        <Font name="Open Sans Semibold" size="13.0" />
                     </font></CheckBox>
-                <CheckBox fx:id="feesCheckBox" disable="false" layoutX="140.0" layoutY="205.0" mnemonicParsing="false" text="Fees">
+                <CheckBox fx:id="feesCheckBox" disable="false" layoutX="172.0" layoutY="233.0" mnemonicParsing="false" text="FEES">
                     <font>
-                        <Font name="System Bold" size="14.0" />
+                        <Font name="Open Sans Semibold" size="13.0" />
                     </font></CheckBox>
-                <DatePicker fx:id="from" layoutX="17.0" layoutY="80.0" prefHeight="36.0" prefWidth="219.0" promptText="mm/dd/yyyy" />
-                <DatePicker fx:id="to" layoutX="17.0" layoutY="150.0" prefHeight="36.0" prefWidth="219.0" promptText="mm/dd/yyyy" />
-                <Button fx:id="editReport" layoutX="37.0" layoutY="253.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="172.0" styleClass="Button" text="EDIT REPORT" textFill="WHITE" />
-                <Button fx:id="saveFile" layoutX="37.0" layoutY="314.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="172.0" styleClass="Button" text="SAVE REPORT" textFill="#4b3838" />
-                <Label layoutX="15.0" layoutY="19.0" text="SUMMARY REPORT">
+                <DatePicker fx:id="from" layoutX="40.0" layoutY="107.0" prefHeight="36.0" prefWidth="219.0" promptText="mm/dd/yyyy" />
+                <DatePicker fx:id="to" layoutX="40.0" layoutY="179.0" prefHeight="36.0" prefWidth="219.0" promptText="mm/dd/yyyy" />
+                <Button fx:id="editReport" layoutX="91.0" layoutY="283.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="115.0" styleClass="Button" text="EDIT" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans Semibold" size="14.0" />
+               </font></Button>
+                <Button fx:id="saveFile" layoutX="91.0" layoutY="339.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="115.0" styleClass="Button" text="SAVE" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans Semibold" size="14.0" />
+               </font></Button>
+                <Label layoutX="66.0" layoutY="44.0" text="SUMMARY REPORT">
                     <font>
-                        <Font name="Open Sans Bold" size="16.0" />
+                        <Font name="Open Sans Extrabold" size="18.0" />
                     </font></Label>
-                <Label layoutX="16.0" layoutY="60.0" text="START">
+                <Label layoutX="129.0" layoutY="89.0" text="START">
                     <font>
-                        <Font name="System Bold" size="14.0" />
+                        <Font name="Open Sans Semibold" size="13.0" />
                     </font></Label>
-                <Label layoutX="18.0" layoutY="130.0" text="END">
+                <Label layoutX="135.0" layoutY="161.0" text="END">
                     <font>
-                        <Font name="System Bold" size="14.0" />
+                        <Font name="Open Sans Semibold" size="13.0" />
                     </font></Label>
             </children>
         </Pane>
+      <Text layoutX="70.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL">
+         <font>
+            <Font name="Open Sans Semibold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="625.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL">
+         <font>
+            <Font name="Open Sans Semibold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="totalBusCount" layoutX="363.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-">
+         <font>
+            <Font name="Open Sans Semibold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="totalFees" layoutX="520.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-">
+         <font>
+            <Font name="Open Sans Semibold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="totalViolations" layoutX="498.0" layoutY="625.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-">
+         <font>
+            <Font name="Open Sans Semibold" size="14.0" />
+         </font>
+      </Text>
         <!-- TEXT AREA END-->
         <!-- GENERATE REPORT AREA END-->
 

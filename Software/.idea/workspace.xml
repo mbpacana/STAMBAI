@@ -1,214 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/dao/Announcement.java" description="package dao;&#10;&#10;public class Announcement {&#10;    &#10;}" line="0" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e919205d-0aa8-4e23-88a2-c60133981bd4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules/BusLoadingSystem.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_api_common_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_client_google_api_client_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_client_google_api_client_gson_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_gax_1_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_grpc_proto_google_common_protos_0_1_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_grpc_proto_google_iam_v1_0_1_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_apis_google_api_services_storage_v1_rev100_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auth_google_auth_library_credentials_0_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auth_google_auth_library_oauth2_http_0_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_value_auto_value_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_http_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_storage_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_admin_5_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_jdk5_17_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_appengine_1_21_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_gson_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_jackson2_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_jackson_1_21_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_oauth_client_google_oauth_client_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_util_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_jackson_jackson_core_asl_1_9_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20160810.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_threeten_threetenbp_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/pdfbox_app_2_0_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_api_api_common_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_api_client_google_api_client_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_api_client_google_api_client_gson_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_api_gax_1_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_api_grpc_proto_google_common_protos_0_1_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_api_grpc_proto_google_iam_v1_0_1_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_apis_google_api_services_storage_v1_rev100_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_auth_google_auth_library_credentials_0_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_auth_google_auth_library_oauth2_http_0_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_auto_value_auto_value_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_http_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_cloud_google_cloud_storage_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_code_gson_gson_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_firebase_firebase_admin_5_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_guava_guava_jdk5_17_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_http_client_google_http_client_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_http_client_google_http_client_appengine_1_21_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_http_client_google_http_client_gson_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_http_client_google_http_client_jackson2_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_http_client_google_http_client_jackson_1_21_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_oauth_client_google_oauth_client_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_util_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__commons_codec_commons_codec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__joda_time_joda_time_2_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__org_codehaus_jackson_jackson_core_asl_1_9_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__org_json_json_20160810.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/libraries/Gradle__org_threeten_threetenbp_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/modules/BusLoadingSystem.iml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/modules/BusLoadingSystem_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/modules/BusLoadingSystem_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/src/main/resources/Book1.csv" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 128/128/src/main/resources/fxml/DirectoryView.fxml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 170/image-compression-using-k-means/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 170/image-compression-using-k-means/src/main/java/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 170/image-compression-using-k-means/src/main/resources/kmdata1.txt" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/3rd Year 1st Sem/CMSC 170/image-compression-using-k-means/src/main/resources/test.txt" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/PROJECTS/time-manager-app/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/PROJECTS/time-manager-app/files/tasks.in" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/PROJECTS/time-manager-app/src/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/School/PROJECTS/time-manager-app/src/mainController.java" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_api_api_common_1_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_api_client_google_api_client_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_api_client_google_api_client_gson_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_api_gax_1_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_api_grpc_proto_google_common_protos_0_1_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_api_grpc_proto_google_iam_v1_0_1_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_apis_google_api_services_storage_v1_rev100_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_auth_google_auth_library_credentials_0_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_auth_google_auth_library_oauth2_http_0_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_auto_value_auto_value_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_1_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_http_1_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_cloud_google_cloud_storage_1_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_code_gson_gson_2_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_firebase_firebase_admin_5_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_guava_guava_jdk5_17_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_http_client_google_http_client_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_http_client_google_http_client_appengine_1_21_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_http_client_google_http_client_gson_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_http_client_google_http_client_jackson2_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_http_client_google_http_client_jackson_1_21_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_oauth_client_google_oauth_client_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_util_3_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__commons_codec_commons_codec_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__commons_io_commons_io_1_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__joda_time_joda_time_2_9_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__org_apache_commons_commons_io_1_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__org_codehaus_jackson_jackson_core_asl_1_9_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__org_json_json_20160810.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/Gradle__org_threeten_threetenbp_1_3_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/pdfbox_app_2_0_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/libraries/pdfbox_app_2_0_71.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/modules/HANI_main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/.idea/modules/HANI_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/CMSC-128/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/CMSC-128/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/CMSC-128/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/CMSC-128/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/java/time/annotations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/pdfbox-app-2.0.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/res/busdata.json" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/res/test.json" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/controller/AddController.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/controller/DirectoryController.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/controller/Display.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/controller/LoginController.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/controller/RealtimeController.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/controller/ReportsController.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/dao/Announcement.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/dao/Bus_Info.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/dao/Company.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/dao/Data.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/dao/RTData.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/service/DatabaseHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/service/Library.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/java/service/PDFGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/Book1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/Book2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/Book3.csv" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/RFIDS.csv" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/build/pdf.js" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/build/pdf.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/build/pdf.worker.js" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/build/pdf.worker.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/busloadingsystem.json" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/fxml/Add.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/fxml/DirectoryView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/fxml/LoginView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/fxml/RealtimeView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/fxml/ReportsView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/buttonsLeft.psd" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/directoryButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/logOut.png" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/new.png" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/pass.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/realtimeButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/reportsButton.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/reportsButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/sample.png" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/test.png" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/user.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/img/white.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$USER_HOME$/Documents/School/2nd Sem 1st Sem/SUBAI/src/main/resources/testPDF.pdf" afterPath="" />
+    <list default="true" id="e919205d-0aa8-4e23-88a2-c60133981bd4" name="Default" comment="edited directories">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/img/logo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/img/stambai_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/pdfbox_app_2_0_71.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/pdfbox_app_2_0_72.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/SceneSwitching.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/controller/changePassController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/dao/Company.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMSC-128" afterPath="$PROJECT_DIR$/CMSC-128" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/img/logOut.png" afterPath="$PROJECT_DIR$/src/main/resources/img/logOut.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/img/new.png" afterPath="$PROJECT_DIR$/src/main/resources/img/new.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/img/realtimeButton.png" afterPath="$PROJECT_DIR$/src/main/resources/img/realtimeButton.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/img/reportsButton.png" afterPath="$PROJECT_DIR$/src/main/resources/img/reportsButton.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_api_common_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_api_common_1_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_client_google_api_client_1_22_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_client_google_api_client_1_22_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_client_google_api_client_gson_1_22_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_client_google_api_client_gson_1_22_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_gax_1_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_gax_1_4_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_grpc_proto_google_common_protos_0_1_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_grpc_proto_google_common_protos_0_1_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_grpc_proto_google_iam_v1_0_1_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_grpc_proto_google_iam_v1_0_1_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_apis_google_api_services_storage_v1_rev100_1_22_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_apis_google_api_services_storage_v1_rev100_1_22_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auth_google_auth_library_credentials_0_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auth_google_auth_library_credentials_0_7_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auth_google_auth_library_oauth2_http_0_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auth_google_auth_library_oauth2_http_0_7_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_value_auto_value_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_value_auto_value_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_1_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_http_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_http_1_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_storage_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_storage_1_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_admin_5_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_admin_5_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_jdk5_17_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_jdk5_17_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_1_22_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_1_22_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_appengine_1_21_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_appengine_1_21_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_gson_1_22_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_gson_1_22_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_jackson2_1_22_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_jackson2_1_22_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_jackson_1_21_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_jackson_1_21_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_oauth_client_google_oauth_client_1_22_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_oauth_client_google_oauth_client_1_22_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_util_3_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_util_3_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_1_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_9_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_9_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_io_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_io_1_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_jackson_jackson_core_asl_1_9_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_jackson_jackson_core_asl_1_9_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20160810.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20160810.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_6_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_threeten_threetenbp_1_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_threeten_threetenbp_1_3_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/pdfbox_app_2_0_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/pdfbox_app_2_0_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/BusLoadingSystem.iml" afterPath="$PROJECT_DIR$/.idea/modules/BusLoadingSystem.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/BusLoadingSystem_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/BusLoadingSystem_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/time/annotations.xml" afterPath="$PROJECT_DIR$/java/time/annotations.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/AddController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AddController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/DirectoryController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/DirectoryController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/Display.java" afterPath="$PROJECT_DIR$/src/main/java/controller/Display.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/RealtimeController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/RealtimeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/ReportsController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/ReportsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/Announcement.java" afterPath="$PROJECT_DIR$/src/main/java/dao/Announcement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/Bus_Info.java" afterPath="$PROJECT_DIR$/src/main/java/dao/Bus_Info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/Data.java" afterPath="$PROJECT_DIR$/src/main/java/dao/Data.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/RTData.java" afterPath="$PROJECT_DIR$/src/main/java/dao/RTData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/DatabaseHelper.java" afterPath="$PROJECT_DIR$/src/main/java/service/DatabaseHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/PDFGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/service/PDFGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Book1.csv" afterPath="$PROJECT_DIR$/src/main/resources/Book1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Book2.csv" afterPath="$PROJECT_DIR$/src/main/resources/Book2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Book3.csv" afterPath="$PROJECT_DIR$/src/main/resources/Book3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/RFIDS.csv" afterPath="$PROJECT_DIR$/src/main/resources/RFIDS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fxml/Add.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Add.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fxml/DirectoryView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/DirectoryView.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fxml/LoginView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/LoginView.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fxml/RealtimeView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/RealtimeView.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fxml/ReportsView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/ReportsView.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/style.css" afterPath="$PROJECT_DIR$/src/main/resources/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -221,7 +104,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/BusLoadingSystem$Display.coverage" NAME="Display Coverage Results" MODIFIED="1510085382757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BusLoadingSystem$Display.coverage" NAME="Display Coverage Results" MODIFIED="1512111073208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -241,6 +124,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="BusLoadingSystem" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BusLoadingSystem" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BusLoadingSystem" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -250,102 +144,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DirectoryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/DirectoryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2346">
-              <caret line="166" column="0" lean-forward="false" selection-start-line="146" selection-start-column="26" selection-end-line="166" selection-end-column="0" />
-              <folding>
-                <element signature="e#8055#8587#0" expanded="true" />
-                <element signature="e#14688#14696#0" expanded="true" />
-                <element signature="e#21822#21840#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="changePassController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/changePassController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-              <folding>
-                <element signature="e#972#973#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PromptR.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/PromptR.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RealtimeView.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/RealtimeView.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="103" lean-forward="false" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RealtimeController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RealtimeController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/RealtimeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="120" column="91" lean-forward="false" selection-start-line="120" selection-start-column="67" selection-end-line="120" selection-end-column="91" />
+            <state relative-caret-position="5025">
+              <caret line="342" column="18" lean-forward="false" selection-start-line="342" selection-start-column="18" selection-end-line="342" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7799#7815#0" expanded="true" />
-                <element signature="e#14525#14539#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportsView.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/ReportsView.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
+      <file leaf-file-name="Book3.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Book3.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="81" selection-end-column="33" />
+            <state relative-caret-position="180">
+              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+      <file leaf-file-name="SceneSwitching.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/SceneSwitching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="50" column="71" lean-forward="false" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReportsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ReportsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="735">
+              <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -353,19 +181,55 @@
       <file leaf-file-name="SettingsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/SettingsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="100" column="33" lean-forward="false" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+            <state relative-caret-position="-609">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WinApplication.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java">
+      <file leaf-file-name="AddController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2635">
-              <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectoryController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/DirectoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-389">
+              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -382,12 +246,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>controller</find>
-      <find>ROW_MAX</find>
-      <find>hover</find>
-      <find>selected</find>
-      <find>loadBusesToFirebase</find>
-      <find>System</find>
       <find>loadBuses</find>
       <find>displayList</find>
       <find>vars</find>
@@ -409,22 +267,30 @@
       <find>startRTD</find>
       <find>setP</find>
       <find>AddCon</find>
-      <find>128 3\src\main\resources</find>
-      <find>switchToRealtime</find>
-      <find>pw.csv</find>
+      <find>addc</find>
+      <find>time of</find>
+      <find>the pass</find>
+      <find>add</find>
+      <find>changePassword</find>
+      <find>change</find>
+      <find>passwordword</find>
+      <find>Non-Aircon</find>
+      <find>initPass</find>
     </findStrings>
     <replaceStrings>
       <replace>checkInputs</replace>
       <replace />
+      <replace>password</replace>
+      <replace>Ordinary</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\User\.gradle\wrapper\dists\gradle-2.13-bin\4xsgxlfjcxvrea7akf941nvc7\gradle-2.13" />
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.13-bin/4xsgxlfjcxvrea7akf941nvc7/gradle-2.13" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -594,10 +460,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4526319148000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1225510121" />
-        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1843517153" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="792937681" />
+        <entry key="$PROJECT_DIR$" value="4533839994000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3743045728" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -709,13 +573,8 @@
         <option value="$PROJECT_DIR$/src/main/java/RealtimeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/DirectoryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/DatabaseHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/Library.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/RTData.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/LoginView.fxml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Bus_Info.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/Add.fxml" />
         <option value="$PROJECT_DIR$/out/production/resources/fxml/DirectoryView.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/Book1.csv" />
@@ -723,27 +582,35 @@
         <option value="$PROJECT_DIR$/src/main/java/settingsControllers/changePassController.java" />
         <option value="$PROJECT_DIR$/src/main/java/settingsControllers/SettingsController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/SettingsView/changePassView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Announcement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/changePassController.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/DatabaseHelper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/SettingsView/Settings.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/style.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/DirectoryView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/RealtimeView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Display.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/ReportsView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/Settings.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/ReportsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/PDFGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/RFIDS.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/Password.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Book3.csv" />
         <option value="$PROJECT_DIR$/src/main/resources/pw.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/changePassController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/RealtimeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/Fees.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/Announcement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/Violations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/RTData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/Bus_Info.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/DirectoryView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/Settings.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/RealtimeView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/ReportsView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/service/PDFGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ReportsController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Display.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/Password.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/SceneSwitching.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/SettingsController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/LoginView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Book3.csv" />
         <option value="$PROJECT_DIR$/src/main/java/controller/AddController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/DirectoryController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/SettingsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/RealtimeController.java" />
       </list>
     </option>
   </component>
@@ -753,11 +620,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="39" />
-    <option name="y" value="127" />
-    <option name="width" value="989" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="957" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -775,102 +641,106 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="128" type="b2602c69:ProjectViewProjectNode" />
-              <item name="128" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="BusLoadingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LATEST HANI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="128" type="b2602c69:ProjectViewProjectNode" />
-              <item name="128" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="BusLoadingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LATEST HANI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusLoadingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LATEST HANI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="128" type="b2602c69:ProjectViewProjectNode" />
-              <item name="128" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="BusLoadingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LATEST HANI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="128" type="b2602c69:ProjectViewProjectNode" />
-              <item name="128" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="BusLoadingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LATEST HANI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="128" type="b2602c69:ProjectViewProjectNode" />
-              <item name="128" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="BusLoadingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LATEST HANI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="128" type="b2602c69:ProjectViewProjectNode" />
-              <item name="128" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="BusLoadingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LATEST HANI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="128" type="b2602c69:ProjectViewProjectNode" />
-              <item name="128" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="BusLoadingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LATEST HANI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusLoadingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LATEST HANI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="128" type="b2602c69:ProjectViewProjectNode" />
-              <item name="128" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="BusLoadingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LATEST HANI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="fxml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="128" type="b2602c69:ProjectViewProjectNode" />
-              <item name="128" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="fxml" type="462c0819:PsiDirectoryNode" />
-              <item name="SettingsView" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/tolapura/Desktop/128 3/src/main/java/controller/LoginController.java&#10;grad&#9;ACTION&#9;ActivateGradleToolWindow&#10;gradle&#9;ACTION&#9;ActivateGradleToolWindow&#10;filename&#9;PSI&#9;JAVA://DirectoryController#filename&#10;loadingBase&#9;PSI&#9;JAVA://RTData#loadingBase" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/img" />
-      <recent name="C:\Users\006104\Desktop\128\src\main\java\controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/fxml" />
       <recent name="$PROJECT_DIR$/src/main/resources/fxml/SettingsView" />
       <recent name="C:\Users\006104\Desktop\128\src\main\resources\fxml\SettingsView" />
       <recent name="C:\Users\006104\Desktop\128\src\main\resources\fxml" />
       <recent name="C:\Users\006104\Desktop\128\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/img" />
+      <recent name="C:\Users\006104\Desktop\128\src\main\java\controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1005,9 +875,19 @@
       <workItem from="1511313393048" duration="1638000" />
       <workItem from="1511316426639" duration="436000" />
       <workItem from="1511317224995" duration="14767000" />
-      <workItem from="1511568776579" duration="64000" />
-      <workItem from="1511767460102" duration="2652000" />
-      <workItem from="1511775808996" duration="1015000" />
+      <workItem from="1511433875911" duration="217000" />
+      <workItem from="1511434151802" duration="10398000" />
+      <workItem from="1511503933472" duration="2249000" />
+      <workItem from="1511764875058" duration="2000" />
+      <workItem from="1511766204634" duration="24139000" />
+      <workItem from="1511801169248" duration="8603000" />
+      <workItem from="1511855033908" duration="13319000" />
+      <workItem from="1511894183386" duration="3574000" />
+      <workItem from="1511947175078" duration="1442000" />
+      <workItem from="1511955227774" duration="2066000" />
+      <workItem from="1512045209283" duration="311000" />
+      <workItem from="1512053194066" duration="140000" />
+      <workItem from="1512092257124" duration="23431000" />
     </task>
     <task id="LOCAL-00001" summary="Edited UI design and tableview properties">
       <created>1510800732108</created>
@@ -1097,75 +977,43 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31265000" />
+    <option name="totallyTimeSpent" value="115330000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="957" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649574" sideWeight="0.47389293" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655367" sideWeight="0.47389293" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47737557" sideWeight="0.51785713" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43418804" sideWeight="0.48214287" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2677966" sideWeight="0.48214287" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875818" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30937973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1845238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980832" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16897856" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17869416" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39774013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47737557" sideWeight="0.51785713" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17869416" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32649574" sideWeight="0.47389293" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43418804" sideWeight="0.48214287" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19969743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980832" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1186,133 +1034,204 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RealtimeController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ReportsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="94" column="5" lean-forward="false" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/RTData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RealtimeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="47" lean-forward="true" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Home.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/HomeController.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/service.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Book2.csv" />
-    <entry file="file://$PROJECT_DIR$/out/production/resources/fxml/DirectoryView.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Book1.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SettingsController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/SettingsView/changePassView.fxml" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/javafx-src.zip!/javafx/event/EventHandler.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/javafx-src.zip!/javafx/beans/value/ChangeListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/DirectoryView.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Add.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/img/logo2.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/LoginView.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Settings.fxml" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/javafx-src.zip!/javafx/collections/transformation/FilteredList.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/RFIDS.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Book3.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pw.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/LICENSE" />
-    <entry file="file://$PROJECT_DIR$/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/DatabaseHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/Library.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Fees.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Data.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Company.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Announcement.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Bus_Info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Violations.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/RTData.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Password.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar!/java/io/FileInputStream.class">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="272">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/busloadingsystem.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Book2.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddController.java">
+    <entry file="file://$PROJECT_DIR$/out/production/resources/fxml/DirectoryView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="29" column="75" lean-forward="false" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+        <state relative-caret-position="238">
+          <caret line="14" column="128" lean-forward="false" selection-start-line="14" selection-start-column="128" selection-end-line="14" selection-end-column="128" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/PDFGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/DirectoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="166" column="0" lean-forward="false" selection-start-line="146" selection-start-column="26" selection-end-line="166" selection-end-column="0" />
-          <folding>
-            <element signature="e#8055#8587#0" expanded="true" />
-            <element signature="e#14688#14696#0" expanded="true" />
-            <element signature="e#21822#21840#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/changePassController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Book1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <caret line="0" column="51" lean-forward="true" selection-start-line="0" selection-start-column="51" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SettingsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="39" column="87" lean-forward="false" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/SettingsView/changePassView.fxml" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="762" column="0" lean-forward="false" selection-start-line="762" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/javafx-src.zip!/javafx/event/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/javafx-src.zip!/javafx/beans/value/ChangeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Add.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/img/logo2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3654">
+          <caret line="2547" column="0" lean-forward="false" selection-start-line="2547" selection-start-column="0" selection-end-line="2547" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/RFIDS.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pw.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/changePassController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Company.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="1297" column="0" lean-forward="false" selection-start-line="1297" selection-start-column="0" selection-end-line="1297" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/RTData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Announcement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="false" />
+            <element signature="e#211#212#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/PromptR.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Fees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Violations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/ReportsView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="81" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="169">
+          <caret line="24" column="74" lean-forward="false" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1321,45 +1240,199 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="103" lean-forward="false" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RealtimeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="120" column="91" lean-forward="false" selection-start-line="120" selection-start-column="67" selection-end-line="120" selection-end-column="91" />
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7799#7815#0" expanded="true" />
-            <element signature="e#14525#14539#0" expanded="true" />
+            <marker date="1511884012000" expanded="true" signature="5522:5914" ph="..." />
+            <marker date="1511884012000" expanded="true" signature="5551:5889" ph="..." />
+            <marker date="1511884012000" expanded="true" signature="5686:5859" ph="..." />
+            <marker date="1511884012000" expanded="true" signature="5721:5823" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SettingsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/ReportsView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="100" column="33" lean-forward="false" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+        <state relative-caret-position="375">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ReportsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/PDFGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="212" column="34" lean-forward="true" selection-start-line="212" selection-start-column="34" selection-end-line="212" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Settings.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="33" />
+          <folding>
+            <marker date="1512113774000" expanded="true" signature="7527:7548" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/DirectoryView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <marker date="1511944740000" expanded="true" signature="6010:6026" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Bus_Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Password.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#121#122#0" expanded="false" />
+            <element signature="e#161#162#0" expanded="false" />
+            <element signature="e#194#195#0" expanded="false" />
+            <element signature="e#225#226#0" expanded="false" />
+            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#311#312#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/LoginView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding>
+            <marker date="1512106429000" expanded="true" signature="1542:1578" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/javafx-src.zip!/javafx/collections/transformation/FilteredList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <element signature="e#3676#3677#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Book3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SceneSwitching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="50" column="71" lean-forward="false" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
+        <state relative-caret-position="-389">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SettingsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/DirectoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RealtimeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5025">
+          <caret line="342" column="18" lean-forward="false" selection-start-line="342" selection-start-column="18" selection-end-line="342" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1423,6 +1496,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1430,7 +1504,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>pdfbox-app-2.0.7</last-edited>
+          <last-edited>pdfbox-app-2.0.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -3,29 +3,29 @@ RFID,Plate_Num,Company,Destination,Sitting_Cap,Type
 9D:CA:30:5B,66gh77,CALVO,Toledo/Balamban,50,Non-Aircon
 b_3,add-111,COROMINAS,Balamban / Asturias /,55,Non-Aircon
 b_4,abd-112,COROMINAS,Tuburan / Toledo,55,Non-Aircon
-b_5,dca-212,CERES,Balamban/Pinamungajan,55,Aircon
-b_6,dca-211,CERES,Toledo,55,Aircon
+b_5,dca-212, CERES,Balamban/Pinamungajan,55,Aircon
+ b_6,dca-211,CERES,Toledo,55,Aircon
 b_7,uiu-111,GABE TRANSIT,Toledo/Balamabn,50,Non-Aircon
 b_8,aab-909,CANONEO,Toledo,80,Non-Aircon
-b_9,ffe-908,METROLINK,Bato/Barili,65,Non-Aircon
-b_10,ght-987,SUNRAYS,Samboan/Oslob,56,Aircon
-b_11,dxy-988,SUNRAYS,Santander Liloan Port,56,Aircon
-b_12,axz-999,CHAN TRANSIT,Dumanjug,50,Non-Aircon
-b_13,ddd-888,JBH/BRITT,Dumanjug/Barili,53,Non-Aircon
-b_14,eee-898,SOCORRO,Dumanjug,53,Non-Aircon
-b_15,eeq-909,BEFEL LINER,Carcar,53,Non-Aircon
-b_16,dee-090,DOS HERMANOS,Carcar,53,Non-Aircon
-b_17,eda-087,INDAY JEAN,Carcar,53,Non-Aircon
-b_18,doe-123,ALLOWIE,Sibonga,53,Non-Aircon
-b_19,ayh-878,ANDREW LINER,Sibonga,53,Non-Aircon
-b_20,jan-356,EDC,Sibonga,53,Non-Aircon
-b_21,lep-007,JRK / SEPO,Sibonga,53,Non-Aircon
-b_22,asd-111,PIONEER,Sibonga,53,Non-Aircon
-b_23,ede-767,SKIPPER,Sibonga,53,Non-Aircon
-b_24,sun-101,YEOMAN,Sibonga,53,Non-Aircon
-b_25,moo-322,JEGANS,Toledo/Pinamungajan,61,Non-Aircon
-b_26,one-901,CALVO,Toledo/Balamban,50,Non-Aircon
-b_27,new-878,COROMINAS,Balamban / Asturias /,55,Non-Aircon
-b_28,ret-012,CERES,Balamban/Pinamungajan,55,Aircon
-b_29,nei-900,GABE TRANSIT,Toledo/Balamabn,50,Aircon
-b_30,ien-876,CANONEO,Toledo,80,Non-Aircon
+b_9,ffe-908, METROLINK,Bato/Barili,65,Non-Aircon
+b_10,ght-987,  SUNRAYS,Samboan/Oslob,56,Aircon
+b_11,dxy-988,  SUNRAYS,Santander Liloan Port,56,Aircon
+b_12,axz-999, CHAN TRANSIT,Dumanjug,50,Non-Aircon
+b_13,ddd-888,  JBH/BRITT,Dumanjug/Barili,53,Non-Aircon
+b_14,eee-898,             SOCORRO,Dumanjug,53,Non-Aircon
+b_15,eeq-909,            BEFEL LINER,Carcar,53,Non-Aircon
+b_16,dee-090,            DOS HERMANOS,Carcar,53,Non-Aircon
+b_17,eda-087,            INDAY JEAN,Carcar,53,Non-Aircon
+b_18,doe-123,            ALLOWIE,Sibonga,53,Non-Aircon
+b_19,ayh-878,            ANDREW LINER,Sibonga,53,Non-Aircon
+b_20,jan-356,            EDC,Sibonga,53,Non-Aircon
+b_21,lep-007,            JRK / SEPO,Sibonga,53,Non-Aircon
+b_22,asd-111,            PIONEER,Sibonga,53,Non-Aircon
+b_23,ede-767,            SKIPPER,Sibonga,53,Non-Aircon
+b_24,sun-101,            YEOMAN,Sibonga,53,Non-Aircon
+b_25,moo-322,  JEGANS,Toledo/Pinamungajan,61,Non-Aircon
+b_26,one-901,  CALVO,Toledo/Balamban,50,Non-Aircon
+b_27,new-878, COROMINAS,Balamban / Asturias /,55,Non-Aircon
+b_28,ret-012,  CERES,Balamban/Pinamungajan,55,Aircon
+b_29,nei-900, GABE TRANSIT,Toledo/Balamabn,50,Aircon
+b_30,ien-876,  CANONEO,Toledo,80,Non-Aircon

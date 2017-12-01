@@ -1,6 +1,7 @@
 package dao;
 
 public class RTData {
+
 	private String time_in;
 	private String time_out;
 	private String duration;
@@ -8,8 +9,8 @@ public class RTData {
 	private String rfid;
 	private String loading_bay;
 
-
-	public RTData(String loading_bay, String time_in, String time_out, String RFID, String duration, String violation) {
+	public RTData(String loading_bay, String time_in, String time_out,
+				  String RFID, String duration, String violation) {
 		this.loading_bay = loading_bay;
 		this.time_in = time_in;
 		this.time_out = time_out;
@@ -34,9 +35,7 @@ public class RTData {
 		return violation;
 	}
 
-	public String getRFID() {
-		return rfid;
-	}
+	public String getRFID() { return rfid; }
 
 	public String getTime_in() {
 		return time_in;
@@ -46,13 +45,12 @@ public class RTData {
 		return time_out;
 	}
 
-	public RTData() {
-        // Default constructor required for calls to DataSnapshot.getValue(User.class)
-    }
+	public RTData() {}
 
 	public void setDuration(String duration) {
 		this.duration = duration;
 	}
+
 	public void setViolation(String violation) {
 		this.violation = violation;
 	}

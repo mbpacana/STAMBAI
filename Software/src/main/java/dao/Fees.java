@@ -1,8 +1,5 @@
 package dao;
 
-/**
- * Created by next on 11/22/2017.
- */
 public class Fees {
     private String company;
     private String count;
